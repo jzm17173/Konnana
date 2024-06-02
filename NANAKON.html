@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style>
+		body,
+		p {
+			margin: 0;
+			padding: 0;
+		}
+
+		.end,
+		.suibian {
+			display: none;
+		}
+
+		.all .end,
+		.all .suibian {
+			display: block;
+		}
+
+		p {
+			background: lavenderblush;
+			color: #999;
+		}
+	</style>
+</head>
+<body>
+	<pre>
+endendend
+newnewnew
+⬆️⬆️⬆️
+so low, so slow
+	</pre>
+	<button class="show-all">show all</button>
+
+	<ul>
+		<li>
+			learn
+			<ul>
+				<li class="suibian">字词句 🎵</li>
+				<li>‼️ front-end ⭐️</li>
+				<li>‼️ python ⭐️</li>
+				<li class="end">java 🚫</li>
+				<li class="end">nlp 🚫</li>
+				<li>game 现实追与不可追</li>
+			</ul>
+		</li>
+		<li>
+			create
+			<ul>
+				<li class="end">‼️ song ⭐️ 🚫</li>
+				<li class="end">‼️ ps ⭐️ 🚫</li>
+				<li>‼️ text ⭐️</li>
+				<li>‼️ think</li>
+				<li>
+					‼️ photo ⭐️
+					<ul>
+						<li>tree</li>
+						<li>thing</li>
+						<li>clothes</li>
+						<li>selfie</li>
+						<li>room</li>
+						<li>周边</li>
+					</ul>
+				</li>
+				<li class="suibian">
+					video 🎵
+				</li>
+				<li class="end">
+					‼️ nanakon 🚫
+					<p>site</p>
+					<p>🔗 github/Nanakon</p>
+				</li>
+				<li class="end">
+					h2 🚫
+					<p>site</p>
+				</li>
+			</ul>
+		</li>
+		<li>
+			me
+			<ul>
+				<li>
+					‼️ sns
+					<ul>
+						<li>weibo</li>
+						<li>bilibili</li>
+						<li>小红书 网图——合集形式</li>
+					</ul>
+				</li>
+				<li class="end">
+					‼️ comment&chat 🚫
+					<p>🔗 nanakon/me/comment&chat</p>
+				</li>
+				<li>person</li>
+				<li>
+					‼️ home
+					<ul>
+						<li>body</li>
+					</ul>
+				</li>
+				<li>‼️ work</li>
+				<li>‼️ $</li>
+				<li>
+					‼️ thing
+					<ul>
+						<li>
+							less
+							<ul>
+								<li>small</li>
+								<li>ebook</li>
+							</ul>
+						</li>
+						<li>
+							more
+							<ul>
+								<li>find</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li>
+					‼️ body
+					<ul>
+						<li>
+							毛病
+							<ul>
+								<li>脚底 有时候痛起来</li>
+								<li>皮肤</li>
+							</ul>
+						</li>
+						<li>减肥</li>
+						<li>晚上不喝水</li>
+						<li>不喝饮料</li>
+					</ul>
+				</li>
+				<li>
+					other
+					<ul>
+						<li>备份</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li>
+			world
+			<ul>
+				<li>thing</li>
+				<li></li>
+				<li></li>
+			</ul>
+		</li>
+	</ul>
+
+	<script>
+		function showAll() {
+			document.querySelector('ul').classList.toggle("all")
+		}
+
+		const showAllBtn = document.querySelector(".show-all")
+		showAllBtn.addEventListener("click", showAll)
+	</script>
+</body>
+</html>
